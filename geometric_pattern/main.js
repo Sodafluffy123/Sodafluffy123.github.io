@@ -10,8 +10,8 @@ function setup() {
 function draw() {
  var isShifted = false;
  
-  var y = 0;
-  while (y <=height) {
+  var y = height;
+  while (y >= 0) {
     var x;
     
     if (isShifted) {
