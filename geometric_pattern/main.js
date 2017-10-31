@@ -12,7 +12,7 @@ function draw() {
     var isShifted = false;
     
     var y = 0;
-    while (y <= height) {
+    while (y >= height) {
         
 var x;
 
@@ -27,7 +27,7 @@ while (x <= width) {
     x = x + circleDiameter;
 }
 
-y = y + circleDiameter;
+y = y - circleDiameter;
 isShifted = !isShifted;
   }
 }
